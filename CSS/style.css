@@ -1,0 +1,115 @@
+*{
+    font-family: sans-serif;
+    
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+.container video{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.Navbar{
+    height: 20vh;
+    width: 100px;
+}
+
+
+.nav img{
+    height: 30px;
+}
+
+.Navbar{
+    display: inline;
+    
+}
+
+.nav{
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+
+.navContent{
+    padding-left: 20px;
+    text-align: center;align-content: center;
+}
+
+.poster{
+    border-radius: 10px;
+    display: inline;
+}
+
+.content{
+    border-radius: 10px;
+    color: white;
+}
+
+.container2{
+    height: 100vh;
+    width: 100%;
+}
+
+
+.moviedetail{
+    color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.moviedetail select{
+    
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 2px;
+}
+
+.moviedetail h2{
+    font-size: 40px;
+}
+
+.btn1{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn1 img{
+    height: 20px;
+}
+
+.btn2{
+    background-color: gray;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn2 img{
+    height: 20px;
+}
